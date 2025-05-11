@@ -9,7 +9,6 @@ import com.example.springdatajdbcDemo1.entity.User;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
@@ -145,7 +144,7 @@ public class CliApp implements CommandLineRunner {
         issueBook.setActualSubmitDate(submitDate);
 
         issueBookDao.returnedBook(issueId,issueBook);
-
+        System.out.println("Db updated");
     }
 
 }
