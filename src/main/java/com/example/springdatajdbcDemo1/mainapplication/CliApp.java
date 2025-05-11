@@ -144,7 +144,7 @@ public class CliApp implements CommandLineRunner {
         issueBook.setActualSubmitDate(submitDate);
 
         issueBookDao.returnedBook(issueId,issueBook);
-        System.out.println("Db updasSFVSDCDSted");
+        System.out.println("Db updasSFVSDdsdcdsCDSted");
     }
 
 }
